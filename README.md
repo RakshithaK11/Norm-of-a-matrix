@@ -19,7 +19,7 @@ mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,1)
 print("{:.2f}".format(ans))
 
-# 2-Norm of a Matrix
+## 2-Norm of a Matrix
 
 '''
 Program to find 2-norm of a matrix.
@@ -31,30 +31,31 @@ mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,2)
 print("{:.2f}".format(ans))
 
-# Infinity Norm of a Matrix
+## Infinity Norm of a Matrix
 import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,np.inf)
 print("{:.2f}".format(ans))
 ~~~
 ## Output:
-![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/4be4f8d2-9d2e-42c3-abda-75fe91addd25)
-![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/069accf1-2c87-4a57-b4ce-73a687395c9b)
-![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/7db5d5d6-df19-47eb-809e-ec4f1d102912)
 
 
 ### 1-Norm of a Matrix
 <br>
+![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/4be4f8d2-9d2e-42c3-abda-75fe91addd25)
 <br>
 <br>
 
 ### 2-Norm of a Matrix
 <br>
+![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/069accf1-2c87-4a57-b4ce-73a687395c9b)
 <br>
 <br>
 
 ### Infinity Norm of a Matrix
 <br>
+![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/7db5d5d6-df19-47eb-809e-ec4f1d102912)
+
 <br>
 <br>
 
