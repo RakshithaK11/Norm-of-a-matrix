@@ -18,9 +18,9 @@ import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,1)
 print("{:.2f}".format(ans))
-
+~~~
 ## 2-Norm of a Matrix
-
+~~~
 '''
 Program to find 2-norm of a matrix.
 Developed by:   RAKSHITHA K 
@@ -30,8 +30,9 @@ import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,2)
 print("{:.2f}".format(ans))
-
+~~~
 ## Infinity Norm of a Matrix
+~~~
 import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,np.inf)
@@ -41,23 +42,16 @@ print("{:.2f}".format(ans))
 
 
 ### 1-Norm of a Matrix
-<br>
-![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/4be4f8d2-9d2e-42c3-abda-75fe91addd25)
-<br>
-<br>
+![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/b1fcf8c6-35ef-4bf6-a4b7-f606e30fe318)
+
 
 ### 2-Norm of a Matrix
-<br>
-![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/069accf1-2c87-4a57-b4ce-73a687395c9b)
-<br>
-<br>
+![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/ca664f89-3d9e-4600-aa09-104ff5cbd3af)
+
 
 ### Infinity Norm of a Matrix
-<br>
-![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/7db5d5d6-df19-47eb-809e-ec4f1d102912)
+![image](https://github.com/RakshithaK11/Norm-of-a-matrix/assets/139336455/cc0ea21f-e1fd-4824-b9a8-46ab7312642c)
 
-<br>
-<br>
 
 ## Result
 Thus the program for 1-norm, 2-norm and Infinity norm of a matrix are written and verified.
